@@ -1,12 +1,13 @@
 body {
     background-color: #4c566a;
+    margin: 0%;
   }
   p {
     color: #eceff4;
   }
   h1 {
     text-align: center;
-    font-family: Sans-serif, Arial;
+    font-family: Verdana,sans-serif, Arial;
     color: #eceff4;
   }
   .center {
@@ -22,8 +23,34 @@ body {
     width: 100%;
   }
 
-  .game{
+  .name{
     font-family: Monaco, Courier New;
   }
+/* Top Bar Settings!*/
+  .topnav {
+    overflow: hidden;
+    background-color: #2e3440;
+  }
+  
+  .topnav a {
+    float: left; 
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #d8dee9;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #bf616a;
+    color: white;
+  }
+/* Top Setting ends*/
+
 
   
