@@ -106,3 +106,30 @@ a.active *,
 	color: rgba(139, 233, 253, 1) !important;
 }
 
+/* Top Bar Settings!*/
+  .topnav {
+    overflow: hidden;
+    background-color: #2e3440;
+  }
+  
+  .topnav a {
+    float: left; 
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #d8dee9;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #bf616a;
+    color: white;
+  }
+/* Top Setting ends*/
+
+
