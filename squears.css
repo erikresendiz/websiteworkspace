@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit,minmax(144px, 360px));
+    grid-gap: 15px;
+    padding: 30px;
+    
+}
+
+  .container div {
+    border-radius: 25px;
+    background-color: #282a36;
+    transition: all 500ms;
+    aspect-ratio: 16/9;
+}
+
+  .container div:hover{
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    transform: translateY(-3px) scale(1.01);
+}
+
+.grid-button{
+    margin: 0px; 
+    border: 0px; 
+    padding: 0px; 
+    border-radius: 25px; 
+    background-color: #44475a;
+}
