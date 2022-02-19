@@ -3,16 +3,21 @@
     justify-content: center;
     align-items: center;
     grid-template-columns: repeat(auto-fit,minmax(144px, 360px));
-    grid-gap: 15px;
+    gap: 1rem;
     padding: 30px;
     
 }
 
   .container div {
-    border-radius: 25px;
+    height: 315px; width: 360px;
+    font-family: Verdana,sans-serif, Arial;
+    color: #eceff4;
+    border-radius: 10px;
     background-color: #282a36;
     transition: all 500ms;
-    aspect-ratio: 16/9;
+    aspect-ratio: 4/3.5;
+    /* text-align: center; */
+    padding-top: 0px; 
 }
 
   .container div:hover{
@@ -20,10 +25,30 @@
     transform: translateY(-3px) scale(1.01);
 }
 
-.grid-button{
-    margin: 0px; 
-    border: 0px; 
-    padding: 0px; 
-    border-radius: 25px; 
-    background-color: #44475a;
+.container img{
+  margin-top: 5px;
+  padding-bottom: 0px;
+  border-radius: 10px;
+  border: 2px solid #ff79c6;
+
+  width: 350px; 
+  height: 197px;
+}
+
+.container button{
+  background-color: #44475a;
+  border: 0px;
+}
+
+.container h2{
+  padding-top: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 0px;
+}
+
+.container hr{
+  border-bottom: solid; 
+  width: 300px; 
+  color: #ff79c6;
 }

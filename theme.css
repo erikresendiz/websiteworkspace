@@ -1,5 +1,5 @@
 .html{
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family:Verdana,sans-serif, Arial;
 }
 body {
   background-color: #44475a;
@@ -11,8 +11,7 @@ p{
 .para {
   color: #eceff4;
   font-size: 16px;
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin-top: 1%;
+  font-family: Verdana,sans-serif, Arial;
   margin-bottom: 10%;
   margin-right: 15%;
   margin-left: 15%;
@@ -21,7 +20,7 @@ p{
   color: #50fa7b; 
   text-align: center; 
   margin-bottom: 0px ; 
-  margin-top: 4%;
+  margin-top: 2%;
   font-family: Verdana,sans-serif, Arial;
 }
 .title hr{
